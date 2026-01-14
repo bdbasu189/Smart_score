@@ -1,19 +1,104 @@
 // Question Banks
 const vocabQuestions = [
   {
-    q: "Happy means:",
-    options: ["Sad", "Joyful", "Angry", "Tired"],
+    q: "Abundant means:",
+    options: ["Scarce", "Plenty", "Rare", "Limited"],
     answer: 1
   },
   {
-    q: "Big means:",
-    options: ["Small", "Tiny", "Large", "Short"],
+    q: "Benevolent means:",
+    options: ["Kind", "Cruel", "Selfish", "Angry"],
+    answer: 0
+  },
+  {
+    q: "Candid means:",
+    options: ["Honest", "Rude", "Silent", "Careless"],
+    answer: 0
+  },
+  {
+    q: "Diligent means:",
+    options: ["Lazy", "Hard-working", "Careless", "Slow"],
+    answer: 1
+  },
+  {
+    q: "Eloquent means:",
+    options: ["Fluent", "Silent", "Confused", "Angry"],
+    answer: 0
+  },
+  {
+    q: "Fragile means:",
+    options: ["Strong", "Delicate", "Heavy", "Hard"],
+    answer: 1
+  },
+  {
+    q: "Hostile means:",
+    options: ["Friendly", "Angry", "Aggressive", "Polite"],
     answer: 2
   },
   {
-    q: "Fast means:",
-    options: ["Slow", "Quick", "Late", "Weak"],
+    q: "Inevitable means:",
+    options: ["Avoidable", "Certain", "Optional", "Unlikely"],
     answer: 1
+  },
+  {
+    q: "Jeopardy means:",
+    options: ["Safety", "Danger", "Success", "Profit"],
+    answer: 1
+  },
+  {
+    q: "Keen means:",
+    options: ["Dull", "Interested", "Weak", "Slow"],
+    answer: 1
+  },
+  {
+    q: "Lethargic means:",
+    options: ["Energetic", "Sleepy", "Active", "Fast"],
+    answer: 1
+  },
+  {
+    q: "Magnanimous means:",
+    options: ["Generous", "Greedy", "Cruel", "Selfish"],
+    answer: 0
+  },
+  {
+    q: "Notorious means:",
+    options: ["Famous for good", "Well-known", "Famous for bad", "Unknown"],
+    answer: 2
+  },
+  {
+    q: "Obsolete means:",
+    options: ["Modern", "Outdated", "Useful", "New"],
+    answer: 1
+  },
+  {
+    q: "Prudent means:",
+    options: ["Careless", "Wise", "Foolish", "Hasty"],
+    answer: 1
+  },
+  {
+    q: "Reluctant means:",
+    options: ["Willing", "Eager", "Unwilling", "Happy"],
+    answer: 2
+  },
+  {
+    q: "Skeptical means:",
+    options: ["Believing", "Doubtful", "Trusting", "Certain"],
+    answer: 1
+  },
+  {
+    q: "Tremendous means:",
+    options: ["Small", "Huge", "Weak", "Little"],
+    answer: 1
+  },
+  {
+    q: "Vague means:",
+    options: ["Clear", "Unclear", "Sharp", "Exact"],
+    answer: 1
+  },
+  {
+    q: "Zealous means:",
+    options: ["Lazy", "Indifferent", "Enthusiastic", "Weak"],
+    answer: 2
   }
 ];
 
@@ -113,4 +198,5 @@ if (document.getElementById("scoreText")) {
 
   document.getElementById("messageText").innerText =
     percent >= 70 ? "Good start 👍" : "Keep practicing 💪";
+
 }
